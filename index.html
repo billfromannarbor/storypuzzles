@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Puzzle Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .puzzle {
+            margin-top: 2em;
+        }
+        .puzzle input {
+            margin-right: 1em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Story Puzzle Adventure</h1>
+    </header>
+    <main>
+        <section id="story">
+            <p>“Sam, Tabby, and I are going to camp out back of Tabby’s grandfather’s place tonight,” I yelled to my parents as I went down the basement stairs to my room...</p>
+        </section>
+        <section class="puzzle">
+            <h2>Puzzle 1</h2>
+            <p>Solve this puzzle to unlock the next part of the story:</p>
+            <p><strong>What is the material of the trunk under the bed?</strong></p>
+            <input type="text" id="answer" placeholder="Your answer here">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="feedback" style="margin-top: 1em;"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Story Puzzle Adventure</p>
+    </footer>
+
+    <script>
+        function checkAnswer() {
+            const answer = document.getElementById('answer').value.trim().toLowerCase();
+            const feedback = document.getElementById('feedback');
+
+            if (answer === 'fuzzy leather') {
+                feedback.textContent = 'Correct! Proceeding to the next part of the story...';
+                feedback.style.color = 'green';
+                setTimeout(() => {
+                    document.getElementById('story').innerHTML += `
+                        <p>Under my bed was The Trunk. It had taken the three of us months to find it. After we had cleaned the mud off, it revealed a green surface...</p>
+                    `;
+                    feedback.textContent = '';
+                }, 2000);
+            } else {
+                feedback.textContent = 'Incorrect. Try again!';
+                feedback.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+</html>
+
