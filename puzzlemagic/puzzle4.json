@@ -1,0 +1,10 @@
+{
+    "id": "puzzle4",
+    "title": "The Riddle",
+    "question": "What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?",
+    "answer": "placeholder4",
+    "feedback": {
+        "correct": "Correct! You've solved the riddle.",
+        "incorrect": "That's not the answer. Think about the metaphor."
+    }
+} 

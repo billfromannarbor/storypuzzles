@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Puzzle Magic</h1>
+    </header>
+    <main>
+        <section id="story">
+            <div id="story-content">
+                <!-- Story text will be loaded here -->
+            </div>
+        </section>
+        <section id="puzzle" class="puzzle">
+            <h2 id="puzzle-title"></h2>
+            <p><strong id="puzzle-question"></strong></p>
+            <input type="text" id="answer" placeholder="Your answer here">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="feedback"></p>
+        </section>
+        <section id="next-segment" class="hidden">
+            <!-- Next segment content will be dynamically inserted here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Story Puzzles | Last updated: <span id="timestamp"></span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

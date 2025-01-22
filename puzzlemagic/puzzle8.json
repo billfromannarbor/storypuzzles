@@ -1,0 +1,10 @@
+{
+    "id": "puzzle8",
+    "title": "The Final Clue",
+    "question": "What does the final clue reveal?",
+    "answer": "placeholder8",
+    "feedback": {
+        "correct": "Correct! You're getting closer to the end.",
+        "incorrect": "That's not it. The answer is in the details."
+    }
+} 

@@ -1,0 +1,10 @@
+{
+    "id": "puzzle5",
+    "title": "The Ancient Symbol",
+    "question": "What does the ancient symbol represent?",
+    "answer": "placeholder5",
+    "feedback": {
+        "correct": "Correct! You've decoded the symbol.",
+        "incorrect": "Not quite. Look for patterns in the symbol."
+    }
+} 

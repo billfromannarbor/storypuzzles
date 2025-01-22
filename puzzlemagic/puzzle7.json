@@ -1,0 +1,10 @@
+{
+    "id": "puzzle7",
+    "title": "The Magic Pattern",
+    "question": "What comes next in the pattern?",
+    "answer": "placeholder7",
+    "feedback": {
+        "correct": "Correct! You've found the pattern.",
+        "incorrect": "Not quite. Look more carefully at the sequence."
+    }
+} 

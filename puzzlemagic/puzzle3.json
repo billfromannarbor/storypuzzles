@@ -1,0 +1,10 @@
+{
+    "id": "puzzle3",
+    "title": "The Hidden Message",
+    "question": "What secret word is hidden in the text?",
+    "answer": "placeholder3",
+    "feedback": {
+        "correct": "Correct! You've found the hidden message.",
+        "incorrect": "Not quite. Look more carefully at the text."
+    }
+} 

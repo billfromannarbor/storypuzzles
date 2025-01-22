@@ -1,0 +1,10 @@
+{
+    "id": "puzzle6",
+    "title": "The Secret Code",
+    "question": "What message is hidden in the code?",
+    "answer": "placeholder6",
+    "feedback": {
+        "correct": "Correct! You've cracked the code.",
+        "incorrect": "That's not right. Try a different decoding method."
+    }
+} 

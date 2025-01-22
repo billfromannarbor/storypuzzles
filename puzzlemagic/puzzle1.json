@@ -1,0 +1,10 @@
+{
+    "id": "puzzle1",
+    "title": "The Trunk's Secret",
+    "question": "What is the unique material of the trunk?",
+    "answer": "fuzzy leather",
+    "feedback": {
+        "correct": "Correct! Proceeding to the next part of the story...",
+        "incorrect": "Incorrect. Try again!"
+    }
+} 

@@ -1,0 +1,10 @@
+{
+    "id": "puzzle10",
+    "title": "The Final Mystery",
+    "question": "What is the ultimate answer?",
+    "answer": "placeholder10",
+    "feedback": {
+        "correct": "Congratulations! You've completed the final puzzle!",
+        "incorrect": "Not quite. This is your final challenge."
+    }
+} 

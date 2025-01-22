@@ -1,0 +1,10 @@
+{
+    "id": "puzzle2",
+    "title": "Beyond Magic",
+    "question": "What tool did they turn to in frustration?",
+    "answer": "screwdriver",
+    "feedback": {
+        "correct": "Correct! Proceeding to the next part of the story...",
+        "incorrect": "Incorrect. Try again!"
+    }
+} 

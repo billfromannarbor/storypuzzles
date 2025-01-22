@@ -1,0 +1,10 @@
+{
+    "id": "puzzle9",
+    "title": "The Last Challenge",
+    "question": "What is the key to the final door?",
+    "answer": "placeholder9",
+    "feedback": {
+        "correct": "Correct! Only one more puzzle remains.",
+        "incorrect": "Not quite. Think about everything you've learned."
+    }
+} 
