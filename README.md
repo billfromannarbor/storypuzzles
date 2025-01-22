@@ -4,11 +4,16 @@ Story Puzzles is an interactive web-based story experience where readers progres
 
 ## Copyright Notice
 
-The story content, including all text in segment*.txt files and illustrations in segment*pic.png files, is © 2025 Bill Heitzeg. All rights reserved. The story content may not be reproduced or distributed without permission.
+The story content, including:
+- All text in segment*.txt files
+- All illustrations in segment*pic.png files
+- All puzzle content in puzzle*.json files (including titles, questions, answers, and feedback text)
+
+is © 2025 Bill Heitzeg. All rights reserved. This content may not be reproduced or distributed without permission.
 
 ## License (Code)
 
-The code (HTML, CSS, and JavaScript) is licensed under the MIT License:
+The code structure and logic (HTML, CSS, and JavaScript, excluding story/puzzle content) is licensed under the MIT License:
 
 ```
 MIT License
@@ -49,7 +54,7 @@ storypuzzlesweb/
 │   ├── segment1pic.png    # Story illustrations (© Bill Heitzeg)
 │   ├── segment2pic.png
 │   ├── ...
-│   ├── puzzle1.json       # Puzzle data
+│   ├── puzzle1.json       # Puzzle data (© Bill Heitzeg)
 │   ├── puzzle2.json
 │   └── ...
 └── README.md              # This file
@@ -75,7 +80,7 @@ storypuzzlesweb/
 
 ## Puzzle Format
 
-Each puzzle is stored in a JSON file with the following structure:
+Each puzzle is stored in a JSON file with the following structure (note that all puzzle content is copyrighted):
 
 ```json
 {
@@ -108,6 +113,6 @@ The project uses vanilla JavaScript, CSS, and HTML without any external dependen
 - Update segment text files for story content
 - Adjust puzzle JSON files for puzzle modifications
 
-Note: When reusing this code for your own stories, remember to replace all story content (text and images) with your own material, as the existing story content is copyrighted by Bill Heitzeg.
+Note: When reusing this code for your own stories, remember to replace all story content (text and images) and puzzle content with your own material, as the existing content is copyrighted by Bill Heitzeg.
 
 Last Updated: Jan 22, 2025 
