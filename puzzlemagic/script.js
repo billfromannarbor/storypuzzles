@@ -1,7 +1,7 @@
 let puzzleData;
 let currentSegment = 1;
 const FINAL_SEGMENT = 10;
-const LAST_UPDATED = "Jan 22, 2025 3:26pm"; // Update this manually when content changes
+const LAST_UPDATED = "Jan 24, 2025 10:25 AM"; // Update this manually when content changes
 
 function updateTimestamp() {
     const timestampElement = document.getElementById('timestamp');
